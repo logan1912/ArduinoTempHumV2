@@ -24,3 +24,8 @@ C:\Users\astro\Documents\Visual Studio 2017\Projects\ArduinoTempHum\ArduinoTempH
 C:\Users\astro\Documents\Visual Studio 2017\Projects\ArduinoTempHum\ArduinoTempHum\obj\Debug\ASCOM.ArduinoTempHum.ObservingConditions.dll
 C:\Users\astro\Documents\Visual Studio 2017\Projects\ArduinoTempHum\ArduinoTempHum\obj\Debug\ASCOM.ArduinoTempHum.ObservingConditions.pdb
 C:\Users\astro\Documents\Visual Studio 2017\Projects\ArduinoTempHum\ArduinoTempHum\obj\Debug\ArduinoTempHum.vbprojResolveAssemblyReference.cache
+C:\Users\astro\Documents\Visual Studio 2017\Projects\ArduinoTempHumV2\ArduinoTempHum\obj\Debug\ArduinoTempHum.vbprojResolveAssemblyReference.cache
+C:\Users\astro\Documents\Visual Studio 2017\Projects\ArduinoTempHumV2\ArduinoTempHum\obj\Debug\ASCOM.ArduinoTempHum.SetupDialogForm.resources
+C:\Users\astro\Documents\Visual Studio 2017\Projects\ArduinoTempHumV2\ArduinoTempHum\obj\Debug\ArduinoTempHum.vbproj.GenerateResource.Cache
+C:\Users\astro\Documents\Visual Studio 2017\Projects\ArduinoTempHumV2\ArduinoTempHum\obj\Debug\ASCOM.ArduinoTempHum.ObservingConditions.dll
+C:\Users\astro\Documents\Visual Studio 2017\Projects\ArduinoTempHumV2\ArduinoTempHum\obj\Debug\ASCOM.ArduinoTempHum.ObservingConditions.pdb
