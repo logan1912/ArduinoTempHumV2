@@ -15,6 +15,7 @@
 ' -----------	---	-----	-------------------------------------------------------
 ' 12-11-2018	KW	1.0.0	Initial edit, from ObservingConditions template
 ' 14-11-2018    KW  1.0.1   Adapt for energy save mode of Arduino
+' 22-01-2019    KW  1.1.0   Integration of athmospheric pressure sensor BMP280
 ' ---------------------------------------------------------------------------------
 ' ---------------------------------------------------------------------------------
 '
@@ -288,8 +289,13 @@ Public Class ObservingConditions
 
     Public ReadOnly Property Pressure() As Double Implements IObservingConditions.Pressure
         Get
-            TL.LogMessage("Pressure", "Get Not implemented")
-            Throw New ASCOM.PropertyNotImplementedException("Pressure", False)
+            objSerial.Transmit("DUM#")
+            System.Threading.Thread.Sleep(500)
+            objSerial.Transmit("PRE#")
+            Dim s As String
+            s = objSerial.ReceiveTerminated("#")
+            s = s.Replace("#", "")
+            Return Val(s)
         End Get
     End Property
 
